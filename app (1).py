@@ -100,7 +100,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(
         "<div style='font-size:0.75rem; color:#607080; line-height:1.6'>"
-        "PE 258 Capstone<br>Fluid Flow & Heat Transfer Suite<br>"
+        "PE 262 Capstone<br>Fluid Flow & Heat Transfer Suite<br>"
         "Peng-Robinson · Darcy-Weisbach · Fourier</div>",
         unsafe_allow_html=True
     )
@@ -141,6 +141,8 @@ if page == "🏠 Home":
 
     st.markdown("<br>", unsafe_allow_html=True)
     st.info("Select a module from the sidebar to begin.")
+    st.markdown("---")
+st.caption("PE 262 · KNUST College of Engineering · Petroleum Engineering · 2025/2026")
 
 # ─────────────────────────────────────────────────────────────
 # MODULE A — PIPE FLOW ANALYSER
