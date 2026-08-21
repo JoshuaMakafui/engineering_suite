@@ -1,6 +1,6 @@
 """
 Fluid Flow & Heat Transfer Engineering Suite
-Capstone Project — PE 258
+Capstone Project — PE 262
 Streamlit multi-page engineering application.
 """
 
@@ -17,8 +17,8 @@ from engineering import Fluid, Pipe, HeatExchanger
 # PAGE CONFIG & GLOBAL STYLE
 # ─────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Engineering Suite",
-    page_icon="⚙️",
+    page_title="PE 262 Engineering Suite",
+page_icon="🔬",
     layout="wide",
     initial_sidebar_state="expanded",
 )
