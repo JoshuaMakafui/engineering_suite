@@ -156,6 +156,7 @@ elif page == "🔩 Pipe Flow Analyser":
     # ── Sidebar inputs ────────────────────────────────────
     with st.sidebar:
         st.markdown("### Fluid Selection")
+        st.caption("Properties auto-populated for preset fluids.")
         presets = Fluid.presets()
         fluid_name = st.selectbox("Fluid type", list(presets.keys()))
         fluid = presets[fluid_name]
