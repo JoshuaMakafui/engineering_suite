@@ -166,6 +166,7 @@ elif page == "🔩 Pipe Flow Analyser":
             fluid.viscosity = st.number_input("Dynamic viscosity (Pa·s)", value=1e-3, format="%.2e", min_value=1e-8)
 
         st.markdown("### Pipe Geometry")
+        st.caption("All dimensions in SI units (metres).")
         D = st.number_input("Internal diameter D (m)", value=0.05, min_value=0.001, format="%.4f",
                             help="Internal pipe diameter in metres")
         L = st.number_input("Pipe length L (m)", value=100.0, min_value=0.1,
