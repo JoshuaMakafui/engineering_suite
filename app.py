@@ -18,7 +18,7 @@ from engineering import Fluid, Pipe, HeatExchanger
 # ─────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="PE 262 Engineering Suite",
-page_icon="🔬",
+page_icon="⚙️",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -94,7 +94,7 @@ with st.sidebar:
     st.markdown("---")
     page = st.radio(
         "Navigate",
-        ["🏠 Home", "🛢️ Pipe Flow Analyser", "🌡️ Heat Transfer Calculator", "📊 Rock & Fluid Dashboard"],
+        ["🏛️ Home", "🛢️ Pipe Flow Analyser", "🌡️ Heat Transfer Calculator", "📊 Rock & Fluid Dashboard"],
         label_visibility="collapsed"
     )
     st.markdown("---")
@@ -108,7 +108,7 @@ with st.sidebar:
 # ─────────────────────────────────────────────────────────────
 # HOME
 # ─────────────────────────────────────────────────────────────
-if page == "🏠 Home":
+if page == "🏛️ Home":
     st.markdown("""
     <div class="module-header">
         <h1>Fluid Flow & Heat Transfer Engineering Suite</h1>
@@ -121,7 +121,7 @@ if page == "🏠 Home":
         st.markdown("""
         <div class="result-card">
             <div class="result-label">Module A</div>
-            <div style="font-size:1.1rem; font-weight:700; color:#0d1b2a; margin:6px 0">🔩 Pipe Flow Analyser</div>
+            <div style="font-size:1.1rem; font-weight:700; color:#0d1b2a; margin:6px 0">🛢️ Pipe Flow Analyser</div>
             <div style="font-size:0.85rem; color:#6b7a8d">Reynolds number, friction factor, pressure drop, ΔP vs Q plot, CSV export.</div>
         </div>""", unsafe_allow_html=True)
     with c2:
