@@ -112,7 +112,7 @@ if page == "🏠 Home":
     st.markdown("""
     <div class="module-header">
         <h1>Fluid Flow & Heat Transfer Engineering Suite</h1>
-        <p>A professional multi-module engineering calculator — PE 258 Capstone</p>
+        <p>A professional multi-module engineering calculator — PE 262 Capstone</p>
     </div>
     """, unsafe_allow_html=True)
 
