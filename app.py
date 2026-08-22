@@ -147,7 +147,7 @@ st.caption("PE 262 · KNUST College of Engineering · Petroleum Engineering · 2
 # ─────────────────────────────────────────────────────────────
 # MODULE A — PIPE FLOW ANALYSER
 # ─────────────────────────────────────────────────────────────
-elif page == "🌊 Pipe Flow Analyser":
+if page == "🌊 Pipe Flow Analyser":
     st.markdown("""
     <div class="module-header">
         <h1>🌊 Pipe Flow Analyser</h1>
