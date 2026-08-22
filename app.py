@@ -94,7 +94,7 @@ with st.sidebar:
     st.markdown("---")
     page = st.radio(
         "Navigate",
-        ["🏛️ Home", "🛢️ Pipe Flow Analyser", "🌡️ Heat Transfer Calculator", "📊 Rock & Fluid Dashboard"],
+        ["🏛️ Home", "🌊 Pipe Flow Analyser", "🌡️ Heat Transfer Calculator", "📊 Rock & Fluid Dashboard"],
         label_visibility="collapsed"
     )
     st.markdown("---")
@@ -121,7 +121,7 @@ if page == "🏛️ Home":
         st.markdown("""
         <div class="result-card">
             <div class="result-label">Module A</div>
-            <div style="font-size:1.1rem; font-weight:700; color:#0d1b2a; margin:6px 0">🛢️ Pipe Flow Analyser</div>
+            <div style="font-size:1.1rem; font-weight:700; color:#0d1b2a; margin:6px 0">🌊 Pipe Flow Analyser</div>
             <div style="font-size:0.85rem; color:#6b7a8d">Reynolds number, friction factor, pressure drop, ΔP vs Q plot, CSV export.</div>
         </div>""", unsafe_allow_html=True)
     with c2:
@@ -147,10 +147,10 @@ st.caption("PE 262 · KNUST College of Engineering · Petroleum Engineering · 2
 # ─────────────────────────────────────────────────────────────
 # MODULE A — PIPE FLOW ANALYSER
 # ─────────────────────────────────────────────────────────────
-if page == "🛢️ Pipe Flow Analyser":
+if page == "🌊 Pipe Flow Analyser":
     st.markdown("""
     <div class="module-header">
-        <h1>🛢️ Pipe Flow Analyser</h1>
+        <h1>🌊 Pipe Flow Analyser</h1>
         <p>Darcy-Weisbach equation · Colebrook-White friction factor · Pressure drop analysis</p>
     </div>
     """, unsafe_allow_html=True)
